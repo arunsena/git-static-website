@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="starter website template">
-    <meta name="author" content="">
+    <meta name="description" content="How to host a static website in GitHub for free">
+    <meta name="author" content="Arun Chandra Sena Bojja">
     <link rel="icon" href="app/favicon.ico">
-    <title>Starter Website Template</title>
+    <title>Website on GitHub</title>
     <!-- Bootstrap core CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
@@ -17,34 +17,90 @@
       <!-- Fixed navbar -->
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container">
-          <a class="navbar-brand" href="#">Bootstrap template</a>
+          <a class="navbar-brand" href="#">Website on GitHub</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
-              </li>
-            </ul>
-          </div>
         </div>
       </nav>
     </header>
     <!-- Begin page content -->
     <main role="main" class="container">
-      <h1 class="mt-5">Starter Website Template</h1>
-      <p class="lead">This is a bootstrap 4 start template to get started quickly!!</p>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">How to host a static website using GitHub for free</h3>
+            <p class="card-text">
+              The Internet is a world of web pages and there are millions of websites out there. 
+              It’s always an amazing way to portray yourself through a personal website or your business website which expands your horizons. 
+              When it comes to website hosting, there are many popular ways to do it whether it is getting a domain on GoDaddy, Namecheap, Hostgator or through site builders like Wix or Wordpress. Not to forget, Amazon Web Services (AWS), a cloud-based platform for hosting at a low cost per usage.
+              Here, I am talking about GitHub — a popular developer portal to discover, share and deploy code. GitHub allows you to host static website quickly in simple steps over secure https protocol for free
+            </p>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Create a account in GitHub</h3>
+            <p class="card-text">
+              Go to GitHub to create an account
+            </p>
+            <p class="card-text">
+                Once you create an account— two ways to get your website in minutes
+                If black screen so-called command prompt scares you, please skip to next step and make your life simple with GitHub Desktop app
+            </p>
+          </div>
+          <div class="card-body">
+              <h3 class="card-title">Using Command line</h3>
+              <p class="card-text">
+                  Once, you log in to GitHub
+              </p>
+              <ul>
+                <li>Create a new repository using a plus icon on the top right corner of the page</li>
+                <li>Give a name to the repo, keep the default options and click ‘create repository’</li>
+                <li>Now, let’s hold on here and go to desktop and open command prompt (Enter ‘cmd’ in the start menu on Windows or search for ‘terminal’ on Mac)</li>
+                <li>Create a new directory using the command ‘mkdir’ in your command prompt and ‘cd’ to that folder where you want to add your code</li>
+                <li>Make sure you have git installed locally using ‘git — version’. If you don’t have one, please refer to this link on installation steps</li>
+                <li>Run ‘git init’ to initialize empty git repo in the folder you created</li>
+                <li>Add your HTML and other resources to this folder</li>
+                <li>Once you add your files, run ‘git add .’ command to stage your files</li>
+                <li>Now, run ‘git commit -m “initial commit”’ to commit your changes and run ‘git status’ to check the status</li>
+                <li>Let’s add the remote URL we got when we created the repo and push to publish your changes to the right repo in GitHub</li>
+                <li>Please enter GitHub Credentials if prompted</li>
+                <li>Go to your GitHub account and now you should see your files under your newly created repo</li>
+                <li>Now navigate to setting page for this repo on the top right corner and go to GitHub Pages</li>
+                <li>Select the source and change it to master and click save</li>
+                <li>Click the generated link in the GitHub pages section and you should see your webpage</li>
+                <li>Congratulations on getting your website!!</li>
+              </ul>
+          </div>
+          <div class="card-body">
+              <h3 class="card-title">Using GitHub Desktop App</h3>
+              <p class="card-text">
+                  GitHub desktop is pretty simple to use, you can get one here — Github Desktop
+              </p>
+              <ul>
+                <li>Once you install the app, click to create a new repository</li>
+                <li>Give a name, description and a local path to your repo and click ‘Create Repository ’ button</li>
+                <li>Navigate to the folder in finder or windows explorer and add files</li>
+                <li>Come back to the app and you will see your files have been staged here</li>
+                <li>Now give a commit message in the bottom left box and commit changes</li>
+                <li>Once you commit your changes, click the ‘Publish Repository’ on the top</li>
+                <li>Please enter GitHub Credentials if prompted</li>
+                <li>Go to your GitHub account and now you should see your files under your newly created repo</li>
+                <li>Now navigate to setting page for this repo on the top right corner and go to GitHub Pages</li>
+                <li>Select the source and change it to master and click save</li>
+                <li>Click the generated link in the GitHub pages section and you should see your webpage</li>
+                <li>Congratulations on getting your website!!</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
     </main>
     <footer class="footer">
       <div class="container">
-        <span class="text-muted">Sticky footer content here.</span>
+        <span class="text-muted">
+          &copy; 2018 Arun Bojja
+        </span>
       </div>
     </footer>
     <!-- Scripst placed at the end of the document so the pages load faster -->
